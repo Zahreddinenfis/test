@@ -6,9 +6,27 @@
 <title>Carthage Drive – Bus & Truck Drivers from Tunisia to Germany</title>
 <meta name="description" content="Carthage Drive recruits and supports qualified bus and truck drivers from Tunisia – from day 1 until the German licence and the first working day in Germany.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-user" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m16 11 2 2 4-4"/></symbol>
+<symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></symbol>
+<symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><circle cx="8" cy="12" r="2"/><path d="M13 10h5M13 14h4"/></symbol>
+<symbol id="i-truck" viewBox="0 0 24 24"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></symbol>
+<symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15"/></symbol>
+</defs></svg>
 
 <header class="site-header">
   <div class="container nav">
@@ -36,40 +54,34 @@
 
 <section class="hero">
   <div class="container hero-grid">
-    <div>
+    <div class="hero-text">
       <p class="eyebrow" data-i18n="hero.eyebrow">Recruitment agency · Tunisia → Germany</p>
       <h1 data-i18n="hero.title">From the roads of Tunisia to a career on German roads.</h1>
       <p class="lead" data-i18n="hero.lead">We carefully select the best bus and truck driver candidates and support them every step of the way – from day 1 until they hold their German licence and start working.</p>
       <div class="cta">
-        <a href="#contact" class="btn" data-i18n="hero.cta1">Apply as a driver</a>
+        <a href="#contact" class="btn"><span data-i18n="hero.cta1">Apply as a driver</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Hire drivers</a>
       </div>
       <ul class="trust">
-        <li data-i18n="hero.t1">Carefully selected candidates</li>
-        <li data-i18n="hero.t2">Support from day 1</li>
-        <li data-i18n="hero.t3">Until your first working day</li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg><span data-i18n="hero.t1">Carefully selected candidates</span></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-users"/></svg><span data-i18n="hero.t2">Support from day 1</span></li>
+        <li><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span data-i18n="hero.t3">Until your first working day</span></li>
       </ul>
     </div>
     <div class="hero-art" aria-hidden="true">
-      <svg viewBox="0 0 520 380" role="img">
-        <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6d9a6"/><stop offset="1" stop-color="#fff4e0"/></linearGradient></defs>
-        <rect width="520" height="380" rx="28" fill="url(#sky)"/>
-        <circle cx="400" cy="90" r="46" fill="#e8a33d"/>
-        <path d="M0 280 L90 200 L160 260 L250 170 L340 262 L430 190 L520 270 V380 H0Z" fill="#c9d6e3" opacity=".7"/>
-        <rect y="300" width="520" height="80" fill="#0e2a47"/>
-        <path d="M0 340H520" stroke="#e8a33d" stroke-width="4" stroke-dasharray="26 18"/>
-        <g transform="translate(60 205)">
-          <rect width="190" height="90" rx="8" fill="#fff"/><rect x="190" y="25" width="70" height="65" rx="8" fill="#e8a33d"/>
-          <rect x="205" y="35" width="40" height="24" rx="3" fill="#0e2a47" opacity=".8"/>
-          <text x="95" y="55" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#0e2a47" font-weight="700">CARTHAGE DRIVE</text>
-          <circle cx="45" cy="95" r="16" fill="#0e2a47"/><circle cx="150" cy="95" r="16" fill="#0e2a47"/><circle cx="225" cy="95" r="16" fill="#0e2a47"/>
-          <circle cx="45" cy="95" r="6" fill="#fff"/><circle cx="150" cy="95" r="6" fill="#fff"/><circle cx="225" cy="95" r="6" fill="#fff"/>
-        </g>
-        <g font-family="system-ui,sans-serif" font-weight="700" font-size="13">
-          <rect x="30" y="30" width="120" height="34" rx="17" fill="#0e2a47"/><text x="90" y="52" text-anchor="middle" fill="#fff">🇹🇳 Tunisia</text>
-          <rect x="370" y="150" width="120" height="34" rx="17" fill="#0e2a47"/><text x="430" y="172" text-anchor="middle" fill="#fff">🇩🇪 Germany</text>
-        </g>
+      <svg viewBox="0 0 560 420">
+        <defs>
+          <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".06"/></pattern>
+          <linearGradient id="road" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#f2b24c"/><stop offset="1" stop-color="#ffd98f"/></linearGradient>
+        </defs>
+        <rect width="560" height="420" rx="28" fill="#13355a"/><rect width="560" height="420" rx="28" fill="url(#grid)"/>
+        <path d="M110 330 C 130 140, 330 290, 450 96" fill="none" stroke="url(#road)" stroke-width="5" stroke-linecap="round" stroke-dasharray="2 16"/>
+        <g class="pulse"><circle cx="110" cy="330" r="22" fill="#e8a33d" opacity=".18"/><circle cx="450" cy="96" r="22" fill="#e8a33d" opacity=".18"/></g>
+        <circle cx="110" cy="330" r="9" fill="#e8a33d"/><circle cx="450" cy="96" r="9" fill="#e8a33d"/>
+        <g font-family="Lexend,system-ui,sans-serif" font-weight="600" font-size="15" fill="#fff"><text x="110" y="364" text-anchor="middle">Tunis</text><text x="450" y="70" text-anchor="middle">Germany</text></g>
+        <g transform="translate(246 190)"><circle cx="34" cy="34" r="34" fill="#e8a33d"/><g transform="translate(14 14) scale(1.7)" fill="none" stroke="#0e2a47" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></g></g>
       </svg>
+      <div class="chips"><span>1 · <b data-i18n="p1.t">Selection</b></span><span>2 · <b data-i18n="p5.t">German licence</b></span><span>3 · <b data-i18n="p6.t">Start working</b></span></div>
     </div>
   </div>
 </section>
@@ -95,12 +107,12 @@
     <h2 class="center" data-i18n="process.title">Your journey, step by step</h2>
     <p class="sub center" data-i18n="process.sub">We stay by your side from the first conversation until you drive your first route in Germany.</p>
     <ol class="steps">
-      <li><span class="num">1</span><h3 data-i18n="p1.t">Selection</h3><p data-i18n="p1.d">Interview, driving experience check and motivation assessment. We only continue with candidates we truly believe in.</p></li>
-      <li><span class="num">2</span><h3 data-i18n="p2.t">Documents & visa</h3><p data-i18n="p2.d">We guide you through the paperwork: contracts, recognition of qualifications, visa application and medical checks.</p></li>
-      <li><span class="num">3</span><h3 data-i18n="p3.t">German language</h3><p data-i18n="p3.d">Language preparation in Tunisia so you arrive ready to communicate, study for your licence and settle in.</p></li>
-      <li><span class="num">4</span><h3 data-i18n="p4.t">Arrival & settling in</h3><p data-i18n="p4.d">Help with arrival, housing, registration, bank account and the first weeks in a new country.</p></li>
-      <li><span class="num">5</span><h3 data-i18n="p5.t">German licence</h3><p data-i18n="p5.d">Coordination of driving school, theory and practical exams and the professional driver qualification (Code 95).</p></li>
-      <li><span class="num">6</span><h3 data-i18n="p6.t">Start working</h3><p data-i18n="p6.d">You start your job with a German employer – and we remain your contact for questions along the way.</p></li>
+      <li><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-user"/></svg></span><span class="num">01</span><h3 data-i18n="p1.t">Selection</h3><p data-i18n="p1.d">Interview, driving experience check and motivation assessment. We only continue with candidates we truly believe in.</p></li>
+      <li><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-file"/></svg></span><span class="num">02</span><h3 data-i18n="p2.t">Documents & visa</h3><p data-i18n="p2.d">We guide you through the paperwork: contracts, recognition of qualifications, visa application and medical checks.</p></li>
+      <li><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-chat"/></svg></span><span class="num">03</span><h3 data-i18n="p3.t">German language</h3><p data-i18n="p3.d">Language preparation in Tunisia so you arrive ready to communicate, study for your licence and settle in.</p></li>
+      <li><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-home"/></svg></span><span class="num">04</span><h3 data-i18n="p4.t">Arrival & settling in</h3><p data-i18n="p4.d">Help with arrival, housing, registration, bank account and the first weeks in a new country.</p></li>
+      <li><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-card"/></svg></span><span class="num">05</span><h3 data-i18n="p5.t">German licence</h3><p data-i18n="p5.d">Coordination of driving school, theory and practical exams and the professional driver qualification (Code 95).</p></li>
+      <li><span class="ico"><svg class="ic" aria-hidden="true"><use href="#i-truck"/></svg></span><span class="num">06</span><h3 data-i18n="p6.t">Start working</h3><p data-i18n="p6.d">You start your job with a German employer – and we remain your contact for questions along the way.</p></li>
     </ol>
   </div>
 </section>
@@ -161,8 +173,8 @@
     <div>
       <h2 data-i18n="contact.title">Let’s talk</h2>
       <p class="sub" data-i18n="contact.sub">Tell us about yourself or your company. We reply as soon as possible.</p>
-      <p class="contact-line">✉ <a href="mailto:contact@carthagedrive.com">contact@carthagedrive.com</a></p>
-      <p class="contact-line">☎ <a href="tel:+000000000">+000 000 000 000</a></p>
+      <p class="contact-line"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg><a href="mailto:contact@carthagedrive.com">contact@carthagedrive.com</a></p>
+      <p class="contact-line"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><a href="tel:+000000000">+000 000 000 000</a></p>
     </div>
     <form id="form" class="card">
       <label><span data-i18n="form.type">I am a…</span>
@@ -170,7 +182,7 @@
       <label><span data-i18n="form.name">Full name</span><input name="name" required autocomplete="name"></label>
       <label><span data-i18n="form.email">Email</span><input name="email" type="email" required autocomplete="email"></label>
       <label><span data-i18n="form.msg">Message</span><textarea name="msg" rows="4" required></textarea></label>
-      <button class="btn" type="submit" data-i18n="form.send">Send message</button>
+      <button class="btn btn-full" type="submit"><span data-i18n="form.send">Send message</span><svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></button>
     </form>
   </div>
 </section>
