@@ -39,29 +39,35 @@
 
 <main id="top">
 
-<section class="hero">
-  <div class="container hero-grid">
-    <div class="hero-text">
-      <h1 data-i18n="hero.title" data-split="mask">From the roads of Tunisia to a career on {German roads.}</h1>
-      <p class="lead" data-i18n="hero.lead" data-reveal style="--i:6">We carefully select the best bus and truck driver candidates and support them every step of the way – from day 1 until they hold their German licence and start working.</p>
-      <div class="cta" data-reveal style="--i:8">
-        <a href="#contact" class="btn magnetic"><span data-i18n="hero.cta1">Apply as a driver</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
-        <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Hire drivers</a>
+<section class="journey" id="process" aria-labelledby="journey-title">
+  <h2 id="journey-title" class="sr-only" data-i18n="journey.label">The journey from Tunisia to Germany</h2>
+  <ol class="sr-only"><li><h3 data-i18n="p1.t">Selection</h3><p data-i18n="p1.d"></p></li><li><h3 data-i18n="p2.t">Documents & visa</h3><p data-i18n="p2.d"></p></li><li><h3 data-i18n="p3.t">German language</h3><p data-i18n="p3.d"></p></li><li><h3 data-i18n="p4.t">Arrival & settling in</h3><p data-i18n="p4.d"></p></li><li><h3 data-i18n="p5.t">German licence</h3><p data-i18n="p5.d"></p></li><li><h3 data-i18n="p6.t">Start working</h3><p data-i18n="p6.d"></p></li></ol>
+  <div class="stage" id="stage">
+    <div class="sky" aria-hidden="true"><div class="glow" id="glow"></div><div class="dawn" id="dawn"></div><div class="sun" id="sun"></div><div class="stars" id="stars"></div></div>
+    <div class="layer" id="far" aria-hidden="true"></div>
+    <div class="layer" id="mid" aria-hidden="true"></div>
+    <div class="fog" aria-hidden="true"></div>
+    <div class="roadside" id="roadside" aria-hidden="true"><div class="lamps" id="lamps"></div><div class="gantry" data-i="0"><div class="gbeam"></div><div class="board"><svg class="ic" aria-hidden="true"><use href="#i-seal-check"/></svg><span data-i18n="p1.t">Selection</span><em>1/6</em></div></div><div class="gantry" data-i="1"><div class="gbeam"></div><div class="board"><svg class="ic" aria-hidden="true"><use href="#i-file-text"/></svg><span data-i18n="p2.t">Documents & visa</span><em>2/6</em></div></div><div class="gantry" data-i="2"><div class="gbeam"></div><div class="board"><svg class="ic" aria-hidden="true"><use href="#i-chats-circle"/></svg><span data-i18n="p3.t">German language</span><em>3/6</em></div></div><div class="gantry" data-i="3"><div class="gbeam"></div><div class="board"><svg class="ic" aria-hidden="true"><use href="#i-house-line"/></svg><span data-i18n="p4.t">Arrival & settling in</span><em>4/6</em></div></div><div class="gantry" data-i="4"><div class="gbeam"></div><div class="board"><svg class="ic" aria-hidden="true"><use href="#i-identification-card"/></svg><span data-i18n="p5.t">German licence</span><em>5/6</em></div></div><div class="gantry" data-i="5"><div class="gbeam"></div><div class="board"><svg class="ic" aria-hidden="true"><use href="#i-truck"/></svg><span data-i18n="p6.t">Start working</span><em>6/6</em></div></div></div>
+    <div class="road" aria-hidden="true"><div class="dashes" id="dashes"></div></div>
+    <div class="bus" id="bus1" aria-hidden="true"></div>
+    <div class="bus" id="bus2" aria-hidden="true"></div>
+    <div class="truck" id="truck" aria-hidden="true"><div class="truck-bob"><div class="hl"></div><i class="puff"></i><i class="puff" style="animation-delay:-.7s"></i><i class="puff" style="animation-delay:-1.4s"></i><div id="truck-art"></div></div></div>
+    <div class="streaks" id="streaks" aria-hidden="true"></div>
+    <div class="wheel" id="wheel" aria-hidden="true"></div>
+    <div class="scrim" id="scrim" aria-hidden="true"></div>
+    <div class="hero-over" id="heroOver">
+      <div class="container">
+        <h1 data-i18n="hero.title" data-split="mask">From the roads of Tunisia to a career on {German roads.}</h1>
+        <p class="lead" data-i18n="hero.lead" data-reveal style="--i:6">We carefully select the best bus and truck driver candidates and support them every step of the way – from day 1 until they hold their German licence and start working.</p>
+        <div class="cta" data-reveal style="--i:8">
+          <a href="#contact" class="btn magnetic"><span data-i18n="hero.cta1">Apply as a driver</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Hire drivers</a>
+        </div>
       </div>
     </div>
-
-    <div class="hero-art" aria-hidden="true" data-reveal="scale" style="--i:3">
-      <svg viewBox="0 0 600 560" preserveAspectRatio="xMidYMid meet">
-        <path id="route-base" d="M70 480 C 90 330, 230 410, 290 290 S 450 190, 520 80" fill="none" stroke="#2C3D52" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 11"/>
-        <path id="route-prog" d="M70 480 C 90 330, 230 410, 290 290 S 450 190, 520 80" fill="none" stroke="#FFC629" stroke-width="4" stroke-linecap="round"/>
-        <g id="truck" color="#0A0E13"><circle r="23" fill="#FFC629"/><use href="#i-truck" x="-13" y="-13" width="26" height="26" fill="currentColor"/></g>
-      </svg>
-      <span class="pin" data-t="0"><i></i><b>Tunis</b></span>
-      <span class="pin pin-end" data-t="1"><i></i><b data-i18n="geo.de">Germany</b></span>
-      <div class="chip" data-t="0.03" style="--ox:26px;--oy:6px"><span class="chip-in"><svg class="ic"><use href="#i-seal-check"/></svg><span data-i18n="chip.1">Day 1 · Selection</span></span></div>
-      <div class="chip" data-t="0.52" style="--ox:30px;--oy:-6px"><span class="chip-in"><svg class="ic"><use href="#i-identification-card"/></svg><span data-i18n="chip.2">German licence</span></span></div>
-      <div class="chip" data-t="0.97" style="--ox:calc(-100% - 28px);--oy:14px"><span class="chip-in"><svg class="ic"><use href="#i-bus"/></svg><span data-i18n="chip.3">First route</span></span></div>
-    </div>
+    <div class="caption" id="caption" aria-hidden="true"><div class="cap-n" id="cap-n">01</div><div><h3 id="cap-t"></h3><p id="cap-d"></p></div></div>
+    <div class="end" id="end"><h2 data-i18n="end.title">Your first route in Germany starts here.</h2><a href="#contact" class="btn magnetic"><span data-i18n="hero.cta1">Apply as a driver</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></a></div>
+    <div class="cue" id="cue" aria-hidden="true"><span data-i18n="hero.scroll">Scroll to start driving</span><i></i></div>
   </div>
 </section>
 
@@ -105,27 +111,6 @@
       <h3 data-i18n="b4.t">Honest conditions</h3>
       <p data-i18n="b4.d">Cost and timeline are explained before you commit to anything.</p>
     </article>
-  </div>
-</section>
-
-<section id="process" class="section process">
-  <div class="container process-grid">
-    <div class="process-head">
-      <div class="sticky">
-        <h2 data-i18n="process.title">Your journey, step by step</h2>
-        <p class="sub" data-i18n="process.sub">We stay by your side from the first conversation until you drive your first route in Germany.</p>
-        <div class="counter" aria-hidden="true"><span id="step-now">01</span><span class="of">/ 06</span></div>
-      </div>
-    </div>
-    <ol class="steps" id="steps">
-      <span class="rail" id="rail" aria-hidden="true"><span class="rail-fill" id="rail-fill"></span></span>
-      <li><span class="node"><svg class="ic"><use href="#i-seal-check"/></svg></span><div><h3 data-i18n="p1.t">Selection</h3><p data-i18n="p1.d">Interview, driving experience check and motivation assessment.</p></div></li>
-      <li><span class="node"><svg class="ic"><use href="#i-file-text"/></svg></span><div><h3 data-i18n="p2.t">Documents & visa</h3><p data-i18n="p2.d">Paperwork guidance.</p></div></li>
-      <li><span class="node"><svg class="ic"><use href="#i-chats-circle"/></svg></span><div><h3 data-i18n="p3.t">German language</h3><p data-i18n="p3.d">Language preparation.</p></div></li>
-      <li><span class="node"><svg class="ic"><use href="#i-house-line"/></svg></span><div><h3 data-i18n="p4.t">Arrival & settling in</h3><p data-i18n="p4.d">Arrival help.</p></div></li>
-      <li><span class="node"><svg class="ic"><use href="#i-identification-card"/></svg></span><div><h3 data-i18n="p5.t">German licence</h3><p data-i18n="p5.d">Licence coordination.</p></div></li>
-      <li><span class="node"><svg class="ic"><use href="#i-truck"/></svg></span><div><h3 data-i18n="p6.t">Start working</h3><p data-i18n="p6.d">First job.</p></div></li>
-    </ol>
   </div>
 </section>
 
@@ -213,6 +198,7 @@
 </footer>
 
 <script src="i18n.js"></script>
+<script src="scene.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

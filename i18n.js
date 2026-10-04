@@ -91,7 +91,10 @@ var I18N = {
   "b3.d": "Information and support in English, German and French.",
   "b4.t": "Honest conditions",
   "b4.d": "Cost and timeline are explained before you commit to anything.",
-  "emp.cta": "Request drivers"
+  "emp.cta": "Request drivers",
+  "hero.scroll": "Scroll to start driving",
+  "end.title": "Your first route in Germany starts here.",
+  "journey.label": "The journey from Tunisia to Germany"
  },
  "de": {
   "nav.process": "Unser Ablauf",
@@ -185,7 +188,10 @@ var I18N = {
   "b3.d": "Informationen und Betreuung auf Englisch, Deutsch und Französisch.",
   "b4.t": "Ehrliche Bedingungen",
   "b4.d": "Kosten und Zeitplan werden erklärt, bevor Sie sich zu irgendetwas verpflichten.",
-  "emp.cta": "Fahrer anfragen"
+  "emp.cta": "Fahrer anfragen",
+  "hero.scroll": "Scrollen und losfahren",
+  "end.title": "Hier beginnt Ihre erste Tour in Deutschland.",
+  "journey.label": "Die Reise von Tunesien nach Deutschland"
  },
  "fr": {
   "nav.process": "Notre parcours",
@@ -279,6 +285,9 @@ var I18N = {
   "b3.d": "Informations et accompagnement en anglais, allemand et français.",
   "b4.t": "Des conditions honnêtes",
   "b4.d": "Les coûts et le calendrier sont expliqués avant tout engagement.",
-  "emp.cta": "Demander des chauffeurs"
+  "emp.cta": "Demander des chauffeurs",
+  "hero.scroll": "Faites défiler pour prendre la route",
+  "end.title": "Votre première tournée en Allemagne commence ici.",
+  "journey.label": "Le voyage de la Tunisie à l’Allemagne"
  }
 };
