@@ -282,16 +282,6 @@
     });
   }
 
-  /* ---------- faq ---------- */
-  $$('.faq-item button').forEach(function (b) {
-    b.addEventListener('click', function () {
-      var item = b.closest('.faq-item'), open = !item.classList.contains('open');
-      $$('.faq-item.open').forEach(function (o) { if (o !== item) { o.classList.remove('open'); $('button', o).setAttribute('aria-expanded', 'false'); } });
-      item.classList.toggle('open', open);
-      b.setAttribute('aria-expanded', open);
-    });
-  });
-
   /* ---------- form ---------- */
   $('#form').addEventListener('submit', function (e) {
     e.preventDefault();

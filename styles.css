@@ -95,19 +95,6 @@ p{margin:0}a{color:inherit}
 .emp-list li:last-child{border-bottom:1px solid var(--line-d)}
 .emp-list .ic{color:var(--road);width:28px;height:28px}
 
-/* faq */
-.faq{background:var(--fog)}
-.faq h2{margin-bottom:48px}
-.faq-item{border-top:1px solid var(--line)}.faq-item:last-child{border-bottom:1px solid var(--line)}
-.faq-item h3{margin:0}
-.faq-item button{width:100%;display:flex;align-items:center;justify-content:space-between;gap:20px;background:none;border:0;text-align:left;cursor:pointer;color:var(--ink);font:600 clamp(1.15rem,2vw,1.45rem)/1.25 var(--font);letter-spacing:-.025em;padding:26px 0;min-height:56px}
-.faq-item button .ic{width:28px;height:28px;color:var(--ink);transition:transform .35s var(--ease-out),color .2s}
-.faq-item button[aria-expanded=true] .ic{transform:rotate(135deg);color:#B07F00}
-.faq-a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ease-out)}
-.faq-a>div{overflow:hidden}
-.faq-a p{padding:0 48px 28px 0;color:var(--mute);font-size:1.1rem;max-width:40em}
-.faq-item.open .faq-a{grid-template-rows:1fr}
-
 /* contact */
 .contact{background:var(--asphalt);color:#fff}
 .contact h2{color:#fff}.contact .sub{color:var(--mute-d)}
@@ -141,7 +128,6 @@ textarea{resize:vertical}
   .btn:hover{background:var(--road-hi)}.btn:hover .ic{transform:translateX(4px)}
   .btn-ghost:hover{background:rgba(255,255,255,.08);box-shadow:inset 0 0 0 1.5px #fff}
   .tile:hover::before{opacity:1}
-  .faq-item button:hover .ic{color:#B07F00}
   .contact-line:hover .ic{background:var(--road);color:var(--road-ink)}
   .magnetic{transition:transform .35s var(--ease-out),background .2s}
 }
@@ -158,7 +144,6 @@ textarea{resize:vertical}
   body{font-size:17px}.nav{gap:10px;height:68px}.brand{font-size:1.05rem}.logo{width:32px;height:32px}
   .menu{inset:68px 0 auto 0}.lang button{padding:6px 9px}
   .cta .btn{width:100%}
-  .faq-a p{padding-right:0}
 }
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
