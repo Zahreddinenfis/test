@@ -227,4 +227,4 @@ textarea{resize:vertical}
   .hero-over{padding-top:92px}
   .cue{display:none}
 }
-@media(prefers-reduced-motion:reduce){.road-line{animation:none}.truck-bob,.puff,.streaks,.cue i{animation:none}.streaks{display:none}.layer svg .blades{animation:none}}
+@media(prefers-reduced-motion:reduce){.truck-bob,.puff,.streaks,.cue i{animation:none}.streaks{display:none}.layer svg .blades{animation:none}}
