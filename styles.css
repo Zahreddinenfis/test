@@ -148,8 +148,6 @@ textarea{resize:vertical}
 .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 1px 1px,rgba(255,255,255,.07) 1px,transparent 0) 0 0/32px 32px,radial-gradient(50% 70% at 88% 10%,rgba(255,198,41,.16),transparent 70%);mask-image:linear-gradient(180deg,#000 50%,transparent);-webkit-mask-image:linear-gradient(180deg,#000 50%,transparent)}
 .hero-inner{position:relative;padding-bottom:clamp(90px,12vw,150px)}
 .hero h1{font-size:clamp(2.7rem,6.6vw,5.8rem);max-width:11em;margin-bottom:.4em}
-.road-line{position:absolute;left:0;right:0;bottom:0;height:4px;background:repeating-linear-gradient(90deg,var(--road) 0 64px,transparent 64px 150px);animation:roadmove 1.4s linear infinite}
-@keyframes roadmove{to{background-position-x:-150px}}
 
 /* ---------- the drive (journey) ---------- */
 .sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
