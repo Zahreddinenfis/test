@@ -57,7 +57,7 @@
     });
     $$('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === l); });
     try { localStorage.setItem('lang', l); } catch (e) {}
-    var h1 = $('.hero-over h1');
+    var h1 = $('.hero h1');
     h1.classList.remove('words-on');
     requestAnimationFrame(function () { requestAnimationFrame(function () { h1.classList.add('words-on'); }); });
     words = $$('.sw');
