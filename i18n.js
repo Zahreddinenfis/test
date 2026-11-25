@@ -94,7 +94,9 @@ var I18N = {
   "emp.cta": "Request drivers",
   "hero.scroll": "Scroll to start driving",
   "end.title": "Your first route in Germany starts here.",
-  "journey.label": "The journey from Tunisia to Germany"
+  "journey.label": "The journey from Tunisia to Germany",
+  "form.ok": "Thank you! Your message has been sent. We will get back to you soon.",
+  "form.err": "Sorry, something went wrong. Please email us directly instead."
  },
  "de": {
   "nav.process": "Unser Ablauf",
@@ -191,7 +193,9 @@ var I18N = {
   "emp.cta": "Fahrer anfragen",
   "hero.scroll": "Scrollen und losfahren",
   "end.title": "Hier beginnt Ihre erste Tour in Deutschland.",
-  "journey.label": "Die Reise von Tunesien nach Deutschland"
+  "journey.label": "Die Reise von Tunesien nach Deutschland",
+  "form.ok": "Vielen Dank! Ihre Nachricht wurde gesendet. Wir melden uns bald bei Ihnen.",
+  "form.err": "Leider ist ein Fehler aufgetreten. Bitte schreiben Sie uns direkt per E-Mail."
  },
  "fr": {
   "nav.process": "Notre parcours",
@@ -288,6 +292,8 @@ var I18N = {
   "emp.cta": "Demander des chauffeurs",
   "hero.scroll": "Faites défiler pour prendre la route",
   "end.title": "Votre première tournée en Allemagne commence ici.",
-  "journey.label": "Le voyage de la Tunisie à l’Allemagne"
+  "journey.label": "Le voyage de la Tunisie à l’Allemagne",
+  "form.ok": "Merci ! Votre message a bien été envoyé. Nous vous répondons rapidement.",
+  "form.err": "Une erreur s’est produite. Écrivez-nous directement par e-mail."
  }
 };

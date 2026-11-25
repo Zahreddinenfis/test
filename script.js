@@ -282,13 +282,16 @@
     });
   }
 
-  /* ---------- form ---------- */
-  $('#form').addEventListener('submit', function (e) {
+  /* ---------- form (delivered by Netlify Forms) ---------- */
+  var form = $('#form'), status = $('#form-status');
+  form.addEventListener('submit', function (e) {
     e.preventDefault();
-    var d = new FormData(e.target);
-    var body = d.get('name') + ' (' + d.get('email') + ')\n\n' + d.get('msg');
-    location.href = 'mailto:contact@carthagedrive.com?subject=' +
-      encodeURIComponent('[' + d.get('type') + '] Carthage Drive') + '&body=' + encodeURIComponent(body);
+    var btn = $('button[type=submit]', form);
+    btn.disabled = true; status.className = 'form-status'; status.textContent = '';
+    fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(new FormData(form)).toString() })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); form.reset(); status.textContent = I18N[current]['form.ok']; status.className = 'form-status ok'; })
+      .catch(function () { status.textContent = I18N[current]['form.err']; status.className = 'form-status err'; })
+      .then(function () { btn.disabled = false; });
   });
 
   $('#year').textContent = new Date().getFullYear();

@@ -97,6 +97,8 @@ input,select,textarea{display:block;width:100%;margin-top:8px;padding:14px 16px;
 input:hover,select:hover,textarea:hover{border-color:#9AA7B5}
 input:focus,select:focus,textarea:focus{outline:0;border-color:var(--ink);box-shadow:0 0 0 4px rgba(255,198,41,.55)}
 textarea{resize:vertical}
+.form-status{margin-top:16px;font-weight:600;min-height:1.5em}.form-status.ok{color:#1B6B3F}.form-status.err{color:#B3261E}
+.btn:disabled{opacity:.6;cursor:wait}
 
 /* footer */
 .site-footer{background:#06090D;color:var(--mute-d);padding:34px 0 0;overflow:hidden;font-size:.95rem}

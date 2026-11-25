@@ -160,13 +160,16 @@
       <a class="contact-line" href="mailto:contact@carthagedrive.com"><svg class="ic"><use href="#i-envelope-simple"/></svg><span>contact@carthagedrive.com</span></a>
       <a class="contact-line" href="tel:+491773806332"><svg class="ic"><use href="#i-phone"/></svg><span>+49 177 3806332</span></a>
     </div>
-    <form id="form" class="card" data-reveal="scale" style="--i:2">
+    <form id="form" class="card" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-reveal="scale" style="--i:2">
+      <input type="hidden" name="form-name" value="contact">
+      <p class="sr-only" aria-hidden="true"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
       <label><span data-i18n="form.type">I am a…</span>
         <select name="type"><option value="driver" data-i18n="form.driver">Driver</option><option value="employer" data-i18n="form.employer">Employer</option></select></label>
       <label><span data-i18n="form.name">Full name</span><input name="name" required autocomplete="name"></label>
       <label><span data-i18n="form.email">Email</span><input name="email" type="email" required autocomplete="email"></label>
       <label><span data-i18n="form.msg">Message</span><textarea name="msg" rows="4" required></textarea></label>
       <button class="btn btn-full" type="submit"><span data-i18n="form.send">Send message</span><svg class="ic" aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
+      <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
     </form>
   </div>
 </section>
